@@ -71,11 +71,16 @@ body {
 .rating p {
    margin: 0.25rem;
    color: var(--very_dark_magenta);
+   font-size: 1.05rem;
    font-weight: 700;
 }
 
 .rating-stars {
    margin: 0.5rem;
+}
+
+.rating-stars img {
+   padding: 0 0.1rem;
 }
 
 .feedback-section {
