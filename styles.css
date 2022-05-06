@@ -25,8 +25,7 @@ body {
    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
    background-position: left top, right bottom;
    background-repeat: no-repeat;
-   border: 1px solid red;
-   margin-bottom: 150px;
+   margin-bottom: 10rem;
    font-size: 15px;
 }
 
@@ -79,47 +78,58 @@ body {
    margin: 0.5rem;
 }
 
-.testimonials-container {
+.feedback-section {
    display: flex;
    flex-direction: column;
    text-align: left;
 }
 
-.testimonials {
+.review-cards {
    background-color: var(--very_dark_magenta);
-   margin-top: 10px;
+   margin-bottom: 1rem;
    border-radius: 7.5px;
 }
 
-.critic-info {
+.card {
+   width: 80%;
+   margin: 1.4rem auto;
+}
+
+.review-cards img {
+   height: 40px;
+   border-radius: 50%;
+   margin-right: 1.35rem;
+}
+
+.critic-card {
    display: flex;
    flex-direction: row;
    align-items: center;
+   margin: 2.2rem 0 1.5rem;
 }
 
-.critic-info h2 {
+.critic-name {
+   display: block;
+   color: var(--soft_pink);
+   font-size: 1.05rem;
+   line-height: 1.25rem;
+}
+
+.critic-name h2 {
    color: var(--white);
-   font-size: 1.1rem;
+   font-size: 1rem;
+   font-weight: 500;
 }
 
-.testimonials img {
-   height: 40px;
-   border-radius: 50%;
-   margin-right: 1.5rem;
-}
-
-.testimonials > div {
-   margin: 2rem;
-}
-
-.testimonials > div p {
-   margin: 0.5rem 0;
+.testimonial {
    color: var(--light_grayish_magenta);
    font-size: 1rem;
-   line-height: 1.55rem;
+   line-height: 1.4rem;
+   margin: 1.75rem 0;
 }
 
 .attribution {
+   margin: 2rem 0;
   font-size: 11px;
   text-align: center;
 }
