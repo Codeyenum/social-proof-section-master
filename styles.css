@@ -60,7 +60,7 @@ body {
 .rating {
    height: 5rem;
    width: 100%;
-   margin: 1rem 0;
+   margin: 1rem 0; 
    background-color: var(--light_grayish_magenta);
    border-radius: 7.5px;
    display: flex;
@@ -89,10 +89,10 @@ body {
    text-align: left;
 }
 
-.review-cards {
+.review-card {
    background-color: var(--very_dark_magenta);
    margin-bottom: 1rem;
-   border-radius: 7.5px;
+   border-radius: 10px;
 }
 
 .card {
@@ -100,7 +100,7 @@ body {
    margin: 1.4rem auto;
 }
 
-.review-cards img {
+.review-card img {
    height: 40px;
    border-radius: 50%;
    margin-right: 1.35rem;
@@ -141,4 +141,84 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1020px) {
+
+   body {
+      height: 100%;
+      background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+      margin-bottom: 0rem;
+   }
+
+   .main-container {
+      display: block;
+      width: 77.5vw;
+      align-items: unset;
+      text-align: center;
+   }
+
+   .top-container {
+      margin: 7.5rem 0 0;
+      text-align: left;
+      width: 40%;
+      float: left;
+   }
+
+   .top-container h1{      
+      margin: 0;
+      padding: 0.5rem 0;
+      font-weight: 700;
+      font-size: 3.5rem;
+   }
+
+   .top-container p{      
+      margin-bottom: 2rem;
+   }
+
+   .ratings-container{
+      margin: 7.5rem 0 5rem;
+      display: block;
+      width: 55%;
+      float: right;
+   }
+
+   .rating {
+      height: 3.5rem;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      width: 80%;
+      align-items: center;
+      flex-direction: row;
+      float: right;
+   }
+
+   .one {
+      margin-right: 4rem;
+   }
+
+   .two {
+      margin-right: 2rem;
+   }
+
+   .feedback-section {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   .review-card {
+      background-color: var(--very_dark_magenta);
+      margin: 0;
+      height: 16rem;
+      width: 32%;
+   }
+   
+   .second {
+      margin-top: 1.75rem;
+   }
+
+   .third {
+      margin-top: 3.5rem;
+   }
 }
