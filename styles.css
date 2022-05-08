@@ -144,7 +144,7 @@ body {
 }
 
 @media screen and (min-width: 1020px) {
-
+   
    body {
       height: 100%;
       background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
